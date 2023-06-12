@@ -37,29 +37,29 @@ struct Quote {
 }
 
 let viewText = ViewText (
-    homeTitleText: "About Dev",
-    homeSubtitle: "Who, What, Where is Dev?",
+    homeTitleText: "About Luis",
+    homeSubtitle: "Who, What, Where is Luis?",
     lifeEventTitleText: "Life Events",
-    devQuoteTitleText: "Dev's Quote",
-    whosDevTitleText: "Whos Dev")
+    devQuoteTitleText: "Luis' Quote",
+    whosDevTitleText: "Whos Luis?")
 
 let ricksQuote = Quote(
-    quote: "\"Place holder. Write your quote.\""
+    quote: "\"Stay connected to the vine and everything will be alright.\""
 )
 
 let person1 = PersonBio (
-    name:"Name",
-    shortBio: "Short bio.",
-    sports: ["FootBall"," Golf", "Boxing"],
-    hobbies: ["R/C Building", "3D Printing"],
-    movies: ["The Lord Of The Rings Trilogy", "Star Wars Saga"],
-    foods: ["Pastas", "Stake"]
+    name:"Luis",
+    shortBio: "Someone from H-town! Who's just trying to figure it out.",
+    sports: ["Soccer"," Basketball", "Volleyball"],
+    hobbies: ["Fixing my car", "Cutting my grass"],
+    movies: ["Narina Chronicles", "John Wick"],
+    foods: ["Hot Wings", "Chipotle Burrito"]
 )
 
 
 let lifeEvents: [LifeEvent] = [
-    .init(id: 0, year: "2012", image: "PersonIcon", description: "Short description"),
-    .init(id: 1, year: "2012", image: "PersonIcon", description: "Short description"),
+    .init(id: 0, year: "2016", image: "PersonIcon", description: "Graduated HS"),
+    .init(id: 1, year: "2016", image: "PersonIcon", description: "Graduated Basic Training"),
     .init(id: 2, year: "2012", image: "PersonIcon", description: "Short description"),
     .init(id: 3, year: "2012", image: "PersonIcon", description: "Short description"),
     .init(id: 4, year: "2012", image: "PersonIcon", description: "Short description"),

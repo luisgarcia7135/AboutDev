@@ -1,6 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "snake sword heart tattoo idea.jpeg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
@@ -152,12 +158,6 @@
     },
     {
       "idiom" : "mac",
-      "size" : "1024x1024"
-    },
-    {
-      "filename" : "PersonAppIcon.png",
-      "idiom" : "universal",
-      "platform" : "ios",
       "size" : "1024x1024"
     }
   ],
